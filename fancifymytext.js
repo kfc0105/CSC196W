@@ -20,5 +20,5 @@ function moo(){
     document.getElementById("text1").style.textTransform = "uppercase"
     var str = document.getElementById("text1").value;
     var parts = str.split(".");
-    document.getElementById("text1").value = parts.join(" -MOO");
+    document.getElementById("text1").value = parts.join("-MOO");
 }
