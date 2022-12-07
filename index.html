@@ -3,6 +3,7 @@
     <!-- start html on web browser "start index.html"-->
     <head>
         <title>Assignment 2a</title>
+        <script src="clicker.js"></script>
     </head>
     <body>
         <h1>Topic of Interest</h1>
@@ -13,7 +14,22 @@
             <a href="https://towardsdatascience.com/">towardsdatascience website</a>
         </p>
         <img src="./download.png"/>
-        <a href="./fancifymytext.html">fancifymytext</a>
-        <a href="./encrypt-it.html">encrypt-it</a>
+        <br><br>
+        <div>
+            <a href="./fancifymytext.html">fancifymytext</a>
+        </div>
+        <br><br>
+        <div>
+            <a href="./encrypt-it.html">encrypt-it</a>
+        </div>
+        <br><br>
+        <div>
+            <button onclick="handleClicker()">Click Me!</button>
+            <p id="counter"></p>
+        </div>
+        <br><br>
+        <div>
+            <img style="display: None" id="img" src="./infinite_doge.gif"/>
+        </div>
     </body>
 </html>
