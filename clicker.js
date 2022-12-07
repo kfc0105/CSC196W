@@ -8,7 +8,7 @@ function handleClicker(){
     if(localStorage.clickcount == 10){
         document.getElementById("img").style.display = "inline";
     }
-    if(localStorage.clickcount == 15){
+    if(localStorage.clickcount == 100){
         document.getElementById("img").src = "./imgs/doge_with_it.gif"
     }
     document.getElementById("counter").innerHTML = "Current Clicker count: " + localStorage.clickcount + " !?";
