@@ -5,6 +5,17 @@
         <title>Assignment 2a</title>
         <script src="clicker.js"></script>
     </head>
+    <style>
+        div {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
     <body>
         <h1>Topic of Interest</h1>
         <p>
@@ -13,7 +24,9 @@
             have to change to make it betteter.
             <a href="https://towardsdatascience.com/">towardsdatascience website</a>
         </p>
-        <img src="./download.png"/>
+        <div>
+            <img src="./imgs/download.png" class="center"/>
+        </div>
         <br><br>
         <div>
             <a href="./fancifymytext.html">fancifymytext</a>
@@ -25,11 +38,12 @@
         <br><br>
         <div>
             <button onclick="handleClicker()">Click Me!</button>
-            <p id="counter"></p>
+            <button onclick="handleReset()">Reset?</button>
+            <p id="counter" ></p>
         </div>
         <br><br>
         <div>
-            <img style="display: None" id="img" src="./infinite_doge.gif"/>
+            <img style="display: None" id="img" src="./imgs/infinite_doge.gif"/>
         </div>
     </body>
 </html>
